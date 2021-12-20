@@ -234,6 +234,62 @@
 			"entries": [
 				"At 6th level, you are able to burn regurgitated papers you used to communicate with your patron in order to summon them as a translucent, ethereal form. The patron appears from the burning message and cannot move. The form takes no damage and any form of attack will pass through them, however have all of their senses about them and can communicate with anyone, not just whoever summoned them. The form lasts until the fire burns out, is put out, or the patron departs the conversation themselves."
 			]  
+		},
+        {
+			"name": "Madman's Knowledge",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+			"page": 1,
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"At 10th level, you gain the ability to think beyond the capacity of most mortal minds. You gain a variation of the Keen Mind feat: - Your Intelligence capacity increases to a maximum of 22 . - Your Intelligence increases by 1 . - You always know which way is north. - You always know the number of hours left before the next sunrise or sunset. - You can accurately recall anything you have seen or heard within the past two weeks. - Your thoughts can't be read by telepathy or other means unless you allow it."
+			]  
+		},
+        {
+			"name": "Talisman of Thought",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+			"page": 1,
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"At 10th level, you gain a talisman that you can light on fire and reuse indefinitely in order to summon your patron as a translucent, ethereal form, the same as one summoned via Burning Knowledge, however this one is able to move in a 60ft radius around the talisman. The fire burns indefinitely however can be put out via traditional means, and your patron can still leave whenever they want to. If this talisman is destroyed, you can use a short rest to meditate with a new necklace and one of your messages in order to fuse them into a new talisman. Creating a new talisman destroys the previous one, if not already destroyed."
+			]  
+		},
+        {
+			"name": "Information Overload",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+			"page": 1,
+			"level": 14,
+			"header": 4,
+			"entries": [
+				"At 14th level, you gain the power to call upon the vast knowledge within your patron's repertoire and force it into the mind of another creature to overflow their thoughts. As an action, you can fill the mind of a creature within 60ft with overwhelming information. The creature must make an Intelligence saving throw. On a failed save, the creature is stunned for one minute. On a successful save, it has disadvantage on all saving throws until the end of its next turn, due to being rattled. A creature must make an Intelligence saving throw at the end of each of its turns to attempt to stop being stunned. You can use this feature once per long rest."
+			]  
+		},
+        {
+			"name": "The Insatiables; Study",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+			"page": 1,
+			"level": 14,
+			"header": 4,
+			"entries": [
+				"At 14th level, burning your talisman takes you and up to two people you choose within 5ft of you to a pocket dimension in the Ethereal Plane to communicate with your patron face to face. Here, you and anyone you take with you can trawl the bookshelves of your patron to find any knowledge which you have previously consumed or gained any other way. You can leave this dimension at any time but it closes after one hour, forcing you out. Your patron may also choose to take you into their pocket dimension whenever they please. You can use this once per long rest."
+			]  
 		}
     ],
     "foundrySubclassFeature": [
@@ -263,8 +319,59 @@
             "level": 6,
             "entryData": {
 				"resist":[
-                    "radiant"
+                    "psychic"
                 ]
+			}
+        },
+        {
+            "name": "Madman's Knowledge",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+            "level": 10,
+            "data": {
+                "changes":[
+                    {
+                        "key": "data.abilities.int.value", 
+                        "mode":2,
+                        "value":"1",
+                        "priority":null
+                    }
+                ]
+			}
+        },
+        {
+            "name": "Information Overload",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+            "level": 14,
+            "data": {
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"per": "lr"
+				}
+			}
+        },
+        {
+            "name": "The Insatiables' Study",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+            "level": 14,
+            "data": {
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"per": "lr"
+				}
 			}
         }
     ]

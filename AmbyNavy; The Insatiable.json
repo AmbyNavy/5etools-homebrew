@@ -83,8 +83,7 @@
                 "Talisman of Thought|Warlock||The Insatiable|Insatiable|10",
                 "Information Overload|Warlock||The Insatiable|Insatiable|14",
                 "The Insatiables' Study|Warlock||The Insatiable|Insatiable|14"
-            ],
-            "spellcastingAbility": "int"
+            ]
         }
     ],
     "subclassFeature": [
@@ -339,11 +338,23 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, burning your talisman takes you and up to two creatures you choose within 5 ft. of you to a pocket dimension in the Ethereal Plane to communicate with your patron face to face. Here, you and anyone you take with you can trawl the bookshelves of your patron to find any knowledge which you have previously consumed or gained any other way. You can leave this dimension at any time but it closes after one hour, forcing you out. Your patron may also choose to take you into their pocket dimension whenever they please. You can use this once per long rest."
+                "At 14th level, burning your talisman takes you and up to two creatures you choose within 5 ft. of you to a pocket dimension in the Ethereal Plane to communicate with your patron face to face. Here, you and anyone you take with you can trawl the bookshelves of your patron to find any knowledge which you have previously consumed or gained any other way. You can leave this dimension at any time but it closes after one hour, forcing you out. Your patron may also choose to take you into their pocket dimension whenever they please. You can use this once per long rest."
 			]  
 		}
     ],
     "foundrySubclassFeature": [
+        {
+            "name": "Mind Caster",
+            "source": "Insatiable",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSource": "Insatiable",
+            "subclassShortName": "The Insatiable",
+            "level": 1,
+            "data": {
+                "attributes.spellcasting": "int"
+			}
+        },
         {
             "name": "Devoured Knowledge",
             "source": "Insatiable",
@@ -430,7 +441,7 @@
 					"value": 1,
 					"max": 1,
 					"per": "lr"
-				}
+                }
 			}
         }
     ]

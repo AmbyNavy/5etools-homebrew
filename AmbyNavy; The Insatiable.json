@@ -45,7 +45,7 @@
             ],
             "additionalSpells": [
                 {
-                    "known": {
+                    "prepared": {
                         "s0":[
                             "mind sliver|TCE#c",
                             "encode thoughts|GGR#c"
@@ -400,19 +400,19 @@
             "subclassSource": "Insatiable",
             "subclassShortName": "The Insatiable",
             "level": 10,
-            "data": {
-                "foundryEffects": [
-                    {
-                        "changes": [
-                            {
-                                "key": "data.abilities.int.value",
-                                "mode": "ADD",
-                                "value": 1
-                            }
-                        ]
-                    }
-                ]
-            }
+            "effects": 
+            [
+                {
+                    "changes": 
+                    [
+                        {
+                            "key": "data.abilities.int.value",
+                            "mode": "ADD",
+                            "value": 1
+                        }
+                    ]  
+                }
+            ]
         },
         {
             "name": "Information Overload",

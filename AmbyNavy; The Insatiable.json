@@ -83,7 +83,9 @@
                 "Talisman of Thought|Warlock||The Insatiable|Insatiable|10",
                 "Information Overload|Warlock||The Insatiable|Insatiable|14",
                 "The Insatiables' Study|Warlock||The Insatiable|Insatiable|14"
-            ]
+            ],
+            "casterProgression": "pact",
+            "spellcastingAbility": "int"
         }
     ],
     "subclassFeature": [
@@ -342,6 +344,7 @@
 			]  
 		}
     ],
+
     "foundrySubclassFeature": [
         {
             "name": "Mind Caster",
@@ -352,7 +355,7 @@
             "subclassShortName": "The Insatiable",
             "level": 1,
             "data": {
-                "attributes.spellcasting": "int"
+
 			}
         },
         {
@@ -370,7 +373,7 @@
                 },
 				"uses": {
 					"value": 1,
-					"max": "floor(1+(@class.warlock.levels/4))",
+					"max": "floor(1+(@classes.warlock.levels/4))",
 					"per": "lr"
 				}
 			}
@@ -398,15 +401,18 @@
             "subclassShortName": "The Insatiable",
             "level": 10,
             "data": {
-                "changes":[
+                "foundryEffects": [
                     {
-                        "key": "data.abilities.int.value", 
-                        "mode":2,
-                        "value":"1",
-                        "priority":null
+                        "changes": [
+                            {
+                                "key": "data.abilities.int.value",
+                                "mode": "ADD",
+                                "value": 1
+                            }
+                        ]
                     }
                 ]
-			}
+            }
         },
         {
             "name": "Information Overload",
@@ -437,6 +443,10 @@
             "subclassShortName": "The Insatiable",
             "level": 14,
             "data": {
+                "activation": {
+                    "type": "action",
+                    "cost": 1
+                },
 				"uses": {
 					"value": 1,
 					"max": 1,

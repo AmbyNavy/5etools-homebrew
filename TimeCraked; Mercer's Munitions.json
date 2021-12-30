@@ -1,0 +1,23 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Munitions",
+                "abbreviation": "MM",
+                "full": "Mercer's Munitions",
+                "authors": [
+                    "TimeCraked"
+                ],
+                "convertedBy": [
+                    "AmbyNavy"
+                ],
+                "version": "1.0.0",
+                "targetSchema": "2.6.2",
+                "url": "https://drive.google.com/file/d/1LxDyMS_uB-arVURUvOtcSRd7ZgvjhMmt/view"
+            }
+        ],
+        "dateAdded": 1640890465,
+        "dateLastModified": 1640899342
+    },
+
+}

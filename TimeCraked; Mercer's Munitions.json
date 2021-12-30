@@ -19,7 +19,174 @@
         "dateAdded": 1640890465,
         "dateLastModified": 1640899342
     },
-    ""{
-
-    }
+    "book":[
+        {
+            "id": "Munitions",
+            "name": "Mercer's Munitions",
+            "source": "Munitions",
+            "published": "2021-07-08",
+            "group": "homebrew",
+            "contents": [
+                {
+                    "name": "Firearms",
+                    "headers": [
+                        "Firearm Properties",
+                        "Bullets"
+                    ]
+                },
+                {
+                    "name": "Crafting Firearms",
+                    "headers": [
+                        "Planning",
+                        "Prototyping",
+                        "Production",
+                        "Crafting Bullets"
+                    ]
+                },
+                {
+                    "name": "Advanced Firearms",
+                    "headers": [
+                        "Advanced Planning",
+                        "Advanced Prototyping",
+                        "Advanced Production",
+                        "Advanced Repairs",
+                        "Crafting Advanced Bullets"
+                    ]
+                },
+                {
+                    "name": "Grenades",
+                    "headers": [
+                        "Grenade Properties",
+                        "Crafting Grenades",
+                        "Grenade Launcher"
+                    ]
+                },
+                {
+                    "name": "Artillery"
+                },
+                {
+                    "name": "New and Replaced Items"
+                },
+                {
+                    "name": "New Magic Items"
+                },
+                {
+                    "name": "Feats",
+                    "headers": [
+                        "Replacement Feats",
+                        "New Feats"
+                    ]
+                },
+                {
+                    "name": "Playable Race: Giff",
+                    "headers": [
+                        "Giff Traits",
+                        "Racial Information"
+                    ]
+                },
+                {
+                    "name": "Barbarian: Path of the Short Fuse",
+                    "headers": [
+                        "Explosive Personality",
+                        "Bomb Shelter",
+                        "Hazardous Alchemy",
+                        "Damage Control",
+                        "Raging Warhead"
+                    ]
+                },
+                {
+                    "name": "Fighter: Gunslinger (Revised)",
+                    "headers": [
+                        "Firearm Proficiency",
+                        "Gunsmith",
+                        "Adept Marksman",
+                        "Quickdraw",
+                        "Rapid Repair",
+                        "Lightning Reload",
+                        "Vicious Critical"
+                    ]
+                },
+                {
+                    "name": "Gambits",
+                    "headers": [
+                        "Trick Shots",
+                        "Special Actions",
+                        "Miscellaneous"
+                    ]
+                },
+                {
+                    "name": "Rogue: Grenadier",
+                    "headers": [
+                        "Explosive Proficiency",
+                        "Advanced Grenades",
+                        "Pocket Bombs",
+                        "Explosive Sneak Attack",
+                        "Grenade Launcher",
+                        "Enhanced Bombs",
+                        "Ballistite Infusion"
+                    ]
+                },
+                {
+                    "name": "Advanced Grenades",
+                    "headers": [
+                        "Damage Grenades",
+                        "Utility Grenades"
+                    ]
+                },
+                {
+                    "name": "Warlock: Niterborne",
+                    "headers": [
+                        "Expanded Spell List",
+                        "Firearm Spirits",
+                        "Volatile Brand",
+                        "Niter Heart",
+                        "Explosive Reaction",
+                        "Primeval Explosion"
+                    ]
+                },
+                {
+                    "name": "New Warlock Invocations",
+                    "headers": [
+                        "Arcane Shot",
+                        "Ballistic Blast",
+                        "Ballistic Smite",
+                        "Eldritch Firearms",
+                        "Greater Arsenal",
+                        "Hastened Munits",
+                        "Improved Firearm Spirits",
+                        "Para-Elemental Cannon",
+                        "Small Soldiers",
+                        "Spellsinger",
+                        "Superior Firearm Spirits",
+                        "Ultimate Firearm Spirits"
+                    ]
+                },
+                {
+                    "name": "New Monsters",
+                    "headers": [
+                        "Goblin Splodesmiths",
+                        "Gunpowder Munits",
+                        "Gunpowder Ooze",
+                        "Gunslingers",
+                        "Iron Hunter"
+                    ]
+                }
+                {
+                    "name": "Optional Rules",
+                    "headers": [
+                        "Optional: Common Firearms",
+                        "Optional: Guns and Water",
+                        "Optional: Guns and Fire",
+                        "Optional: Loud Firearms",
+                        "Optional: Modern Firearms",
+                        "Optional: Primitive Firearms",
+                        "Optional: Steadying on a Vehicle",
+                        "Optional: Technology Beats Magic",
+                        "Optional: Traditional Misfire",
+                        "Optional: Volatility Increased"
+                    ]
+                }
+            ]
+        }
+    ]
 }

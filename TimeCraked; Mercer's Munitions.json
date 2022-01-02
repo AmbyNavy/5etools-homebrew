@@ -170,7 +170,7 @@
                         "Gunslingers",
                         "Iron Hunter"
                     ]
-                }
+                },
                 {
                     "name": "Optional Rules",
                     "headers": [
@@ -187,6 +187,12 @@
                     ]
                 }
             ]
+        }
+    ],
+    "bookData": [
+        {
+            "id": "Munitions",
+            "source": ""
         }
     ]
 }

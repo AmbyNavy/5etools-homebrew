@@ -35,7 +35,8 @@
             ],
             "skillProficiencies": [
                 {
-                    "stealth": true
+                    "stealth": true,
+                    "nature": true,
                 }
             ],
             "speed": 35,
@@ -111,7 +112,7 @@
                     "type": "entries",
                     "name": "Naturally Gifted",
                     "entries": [
-                        "You can innately cast the Druidcraft cantrip, with wisdom as your Spellcasting Ability."
+                        "You can innately cast the Druidcraft cantrip, with wisdom as your Spellcasting Ability. You are also proficient in {@skill Nature}."
                     ]
                 },
                 {

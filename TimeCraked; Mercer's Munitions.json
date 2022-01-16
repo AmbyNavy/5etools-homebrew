@@ -192,7 +192,176 @@
     "bookData": [
         {
             "id": "Munitions",
-            "source": ""
+            "source": "Munitions",
+            "data": [
+                {
+                    "type": "section",
+                    "name": "Firearms",
+                    "page": 1,
+                    "entries": [
+                        "A firearm is a gunpowder powered weapon, that uses explosions to propel projectiles at dangerously high speeds. They are martial weapons for the purposes of spells or effects that require one, but you need the firearm proficiency specifically in order to be considered proficient with them.",
+                        {
+                            "name": "Firearm Properties",
+                            "page": 1,
+                            "entries": [
+                                "Some firearm properties ask for a saving throw. The DC of these saving throws is equal to: {@b 8 + your proficiency bonus + your dexterity modifier.}",
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        {
+                                            "type": "entries",
+                                            "name": "Ammunition",
+                                            "entries": [
+                                                "All firearms require ammunition to make an attack. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed in the Ammo column of the firearms chart next to the price. This ammunition is destroyed on use."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Concealed",
+                                            "entries": [
+                                                "The weapon is concealed as something else, perhaps a cane or lighter. If you attack a creature with a concealed weapon, and they do not know it is a concealed weapon, your attack roll is made with advantage."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Explosive",
+                                            "entries": [
+                                                "Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw or suffer fire damage equal to the weapon’s damage, reduced by one damage die. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. If the weapon misfires, you take 1d4 damage of the weapon's type"
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Fused",
+                                            "entries": [
+                                                "A firearm with the fused property can be used as either a firearm or another kind of weapon. If the firearm misfires, you can still use it as the listed weapon."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Lethal",
+                                            "entries": [
+                                                "When you roll a number on the damage die equal to the lethal score or lower, you can reroll that die. You must take the new roll. This property cannot be applied to a weapon that has the explosive property, and cannot be used on the damage rolls for the special attacks of the rapid and scatter properties."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Melee",
+                                            "entries": [
+                                                "You can make a melee weapon attack using this weapon, with a reach of 5 feet. This melee weapon attack uses Strength to determine your attack and damage, and your misfire score increases by 2 for the attack. If the weapon has the fused property, you add the firearm damage to the fused weapon's normal melee damage."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Misfire",
+                                            "entries": [
+                                                "henever you score a critical miss on an attack roll with a firearm, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend 1 attack or 1 action to unjam it. Each time the weapon misfires, it's damage is reduced by it's misfire score. If a firearm misfires three times between rests, it breaks and cannot be used at all.",
+                                                "During a short or long rest, you can repair your firearm, removing the damage reduction from any misfires. To repair your firearm, you must make a successful Intelligence (Tinker’s Tools) check (DC equal to 8 + misfire score). If your weapon is broken entirely, it costs a quarter of the cost of the firearm to repair it to a functional state.",
+                                                "Creatures who use a firearm without being proficient score a critical miss on a roll of 1 or 2."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Rapid",
+                                            "entries": [
+                                                "By firing three pieces of ammunition instead of one, you can make a special attack with this weapon. Target one creature in your weapon's normal range. The target must make a Dexterity saving throw or suffer your weapon damage. Additionally, roll a d20. If you roll equal to or below your weapon's misfire score, the weapon misfires and the special attack fails."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Reload",
+                                            "entries": [
+                                                "The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm, and you must be holding it."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Scatter",
+                                            "entries": [
+                                                "By loading a round of Buckshot ammunition, you can make a special attack with this weapon. All creatures in a cone equal to the weapon’s normal range must make a Dexterity saving throw or suffer your weapon’s damage, reduced by one damage die. Additionally, roll a d20. If you roll equal to or below twice your weapon's misfire score, the weapon misfires and the special attack fails."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Scoped",
+                                            "entries": [
+                                                "By spending 1 attack or 1 action with this weapon, you can aim down it's scoped sights to gain advantage on the next attack roll you make with the weapon at it's long range. You cannot use this property if you have moved during that turn, and lose the advantage if you move before firing."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Steadied",
+                                            "entries": [
+                                                "As an action while prone, you can steady this weapon. While prone, you do not have disadvantage on ranged attack rolls with this weapon due to being prone, or attacking at the weapon's long range."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Silenced",
+                                            "entries": [
+                                                "Wisdom (Perception) checks made to determine where a shot was fired from with this weapon are made with disadvantage."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Worn",
+                                            "entries": [
+                                                "A worn weapon takes an action to don or doff, usually being worked into or strapped to a piece of armor. While donned, it can be used without taking up a hand."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bullets",
+                            "page":  "1",
+                            "entries": [
+                                "Bullets are the ammunition used by all firearms. For their cost and batch size, check the ammo column of the firearms charts. Each firearm uses a specific kind of bullet, so you cannot load bullets made for one firearm into another. A single batch of any kind of bullets weighs 1 pound.",
+                                {
+                                    "name": "Ammunition Types",
+                                    "entries": [
+                                        {
+                                            "type": "entries",
+                                            "name": "Standard",
+                                            "entries": [
+                                                "Standard ammunition has no special effects, and has the normal cost of the ammunition to produce."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Buckshot",
+                                            "entries": [
+                                                "The scatter property requires Buckshot ammunition, which fires several small pellets in a scattered array. They cost three times the standard cost of the ammunition to produce."
+                                            ]
+                                        },
+                                        {    
+                                            "type": "entries",
+                                            "name": "Silvered",
+                                            "entries": [
+                                                "Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver ten bullets of any kind for 100 gp."
+                                            ]
+                                        } 
+                                          
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Available Firearms",
+                            "colLabels": [
+                                "name",
+                                "Cost",
+                                "Ammo",
+                                "Damage",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

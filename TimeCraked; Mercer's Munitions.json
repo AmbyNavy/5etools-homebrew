@@ -345,7 +345,14 @@
                                     ]
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Crafting Firearms",
+                    "page": 2,
+                    "entries": [
                         {
                             "type": "table",
                             "caption": "Available Firearms",
@@ -354,9 +361,162 @@
                                 "Cost",
                                 "Ammo",
                                 "Damage",
-                                "",
-                                "",
-                                ""
+                                "Weight",
+                                "Range",
+                                "Weapon Properties"
+                            ],
+                            "rows": [
+                                [
+                                    "Blunderbuss",
+                                    "300gp",
+                                    "5gp (5)",
+                                    "2d8 piercing",
+                                    "10 lb",
+                                    "(15/60)",
+                                    "Two-handed, reload 1, misfire 2, scatter (1d8), lethal 2"
+                                ],
+                                [
+                                    "Flintlock",
+                                    "100gp",
+                                    "2gp (20)",
+                                    "1d10 piercing",
+                                    "2 lb",
+                                    "(30/120)",
+                                    "Light, loading, misfire 3, lethal 1"
+                                ],
+                                [
+                                    "Hand Mortar",
+                                    "400gp",
+                                    "10gp (1)",
+                                    "2d8 fire",
+                                    "10 lb",
+                                    "(30/60)",
+                                    "Reload 1, misfire 3, explosive (1d8)"
+                                ],
+                                [
+                                    "Musket",
+                                    "400gp",
+                                    "5gp (20)",
+                                    "1d12 piercing",
+                                    "10 lb",
+                                    "(120/480)",
+                                    "Two-handed, reload 1, misfire 2, lethal 2, steadied"
+                                ],
+                                [
+                                    "Palm Pistol",
+                                    "50gp",
+                                    "2gp (20)",
+                                    "1d8 piercing",
+                                    "1 lb",
+                                    "(40/160)",
+                                    "Light, reload 1, misfire 1, lethal 1"
+                                ],
+                                [
+                                    "Pepperbox",
+                                    "250gp",
+                                    "4gp (20)",
+                                    "1d10 piercing",
+                                    "5 lb",
+                                    "(80/320)",
+                                    "Reload 6, misfire 2, lethal 1"
+                                ],
+                                [
+                                    "Pistol",
+                                    "150 gp",
+                                    "4 gp (20)",
+                                    "1d10 piercing",
+                                    "3 lb",
+                                    "(60/240)",
+                                    "Reload 4, misfire 1, lethal 1"
+                                ],
+                                [
+                                    "Volley Gun",
+                                    "400gp",
+                                    "5gp (5)",
+                                    "2d6 piercing",
+                                    "10 lb",
+                                    "(30/120)",
+                                    "Two-handed, rapid, reload 6, misfire 2, lethal 2"
+                                ]
+                            ]
+                        },
+                        "Through the Gunsmith feature of the Gunslinger Subclass, you are able to create firearms from scratch. Creating a firearm is an extensive process, requiring that you go through three important steps before the firearm is completed; Planning, Prototyping, and Production. The cost of crafting your firearm is equal to it's listed cost for purchase, and is divided between the stages, as described below.",
+                        {
+                            "type": "section",
+                            "name": "Planning",
+                            "entries": [
+                                "The {@b Planning} stage of firearm crafting involves theory crafting, drawing up schematics and immersing yourself in draft after draft of theoretical designs. This stage usually accounts for around a quarter of the firearm's cost. If you have created this type of firearm before, you can skip to the production stage immediately.",
+                                "You must spend a week, where at least two hours each day are spent focusing on the task of designing the firearm. This counts as light activity for the purposes of a long rest. At the end of the week, roll an Intelligence (Tinker's Tools) check. If you spend twice as long to plan, you have advantage on this ability check. The check's DC starts at 12, and is modified by the following:",
+                                {
+                                    "type": "table",
+                                    "colLabels": [
+                                        "Firearm Feature",
+                                        "DC Mod."
+                                    ],
+                                    "rows": [
+                                        [
+                                            "If the weapon has more than one damage die.",
+                                            "+2"
+                                        ],
+                                        [
+                                            "If the weapon has a misfire score above 1.",
+                                            "-1"
+                                        ],
+                                        [
+                                            "If the weapon has any other properties besides misfire, reload and lethal.",
+                                            "+1 per property"
+                                        ],
+                                        [
+                                            "If the weapon is one handed.",
+                                            "+1"
+                                        ],
+                                        [
+                                            "If the weapon has a reload score above 1.",
+                                            "+2"
+                                        ],
+                                        [
+                                            "If the weapon does an alternative damage type to piercing.",
+                                            "+2"
+                                        ],
+                                        [
+                                            "If the weapon is one-handed and has a range above (60/240).",
+                                            "+1"
+                                        ],
+                                        [
+                                            "If the weapon is two-handed and has a range above (120/480)",
+                                            "+1"
+                                        ]
+                                    ]
+                                },
+                                "If you fail, you spend an eighth of your firearm's total cost, and must try again. Otherwise, you spend a quarter of your firearm's total on the draft."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Prototyping",
+                            "entries": [
+                                "The {@b Prototyping} stage of firearm crafting involves more hands on work, involving assembling a temporary model of the firearm and testing it before making refinements before production. This stage usually accounts for around a quarter of the firearm's cost.",
+                                "You must spend two weeks, where at least two hours each day are spent focusing on the task of prototyping the firearm. At the end of the two weeks, make an attack roll and a damage roll with the firearm, ignoring the lethal property. If you misfire, or roll a 1 on any of the damage die, you must spend an eighth of the firearm's total cost repairing and adjusting the prototype to try again.",
+                                "If you spend twice as long to prototype, you make the prototyping attack roll with advantage.",
+                                "Alternatively, you can spend four times as long prototyping to also gain a reroll of the first 1 rolled on a damage die during this process, keeping the new roll.",
+                                "If you succeed, you spend a quarter of the firearm's total cost and can move onto the production step."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Planning",
+                            "entries": [
+                                "The {@b Production} stage of firearm crafting is much less mentally involved, though it still takes finesse and skill that only a Gunsmith possess. This stage usually accounts for around half of the firearm's cost.",
+                                "You must spend a week, where at least two hours each day are spent focusing on the task of constructing the firearm. Constructing a firearm costs half of the firearm's total cost."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Crafting Bullets",
+                            "entries": [
+                                "During a long rest, you can make a Dexterity (Tinker's Tools) check. If the ammunition you are crafting costs more than 5 gold per batch, the DC is 15. Otherwise it is 10.",
+                                "If you stay up for twice as long during your long rest, making a Constitution saving throw to avoid exhaustion as normal, you make this ability check with advantage.",
+                                "On a success, you craft one batch of ammunition provided you have materials equal to half of the ammunition's cost."
                             ]
                         }
                     ]

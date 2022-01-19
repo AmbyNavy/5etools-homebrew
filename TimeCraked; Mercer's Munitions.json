@@ -254,7 +254,7 @@
                                             "type": "entries",
                                             "name": "Misfire",
                                             "entries": [
-                                                "henever you score a critical miss on an attack roll with a firearm, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend 1 attack or 1 action to unjam it. Each time the weapon misfires, it's damage is reduced by it's misfire score. If a firearm misfires three times between rests, it breaks and cannot be used at all.",
+                                                "Whenever you score a critical miss on an attack roll with a firearm, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend 1 attack or 1 action to unjam it. Each time the weapon misfires, it's damage is reduced by it's misfire score. If a firearm misfires three times between rests, it breaks and cannot be used at all.",
                                                 "During a short or long rest, you can repair your firearm, removing the damage reduction from any misfires. To repair your firearm, you must make a successful Intelligence (Tinker’s Tools) check (DC equal to 8 + misfire score). If your weapon is broken entirely, it costs a quarter of the cost of the firearm to repair it to a functional state.",
                                                 "Creatures who use a firearm without being proficient score a critical miss on a roll of 1 or 2."
                                             ]
@@ -504,7 +504,7 @@
                         },
                         {
                             "type": "section",
-                            "name": "Planning",
+                            "name": "Production",
                             "entries": [
                                 "The {@b Production} stage of firearm crafting is much less mentally involved, though it still takes finesse and skill that only a Gunsmith possess. This stage usually accounts for around half of the firearm's cost.",
                                 "You must spend a week, where at least two hours each day are spent focusing on the task of constructing the firearm. Constructing a firearm costs half of the firearm's total cost."
@@ -524,7 +524,7 @@
                 {
                     "type": "section",
                     "name": "Advanced Firearms",
-                    "page": 2,
+                    "page": 3,
                     "entries": [
                         {
                             "type": "table",
@@ -609,78 +609,322 @@
                             "type": "section",
                             "name": "Planning",
                             "entries": [
-                                "The {@b Planning} stage of firearm crafting involves theory crafting, drawing up schematics and immersing yourself in draft after draft of theoretical designs. This stage usually accounts for around a quarter of the firearm's cost. If you have created this type of firearm before, you can skip to the production stage immediately.",
-                                "You must spend a week, where at least two hours each day are spent focusing on the task of designing the firearm. This counts as light activity for the purposes of a long rest. At the end of the week, roll an Intelligence (Tinker's Tools) check. If you spend twice as long to plan, you have advantage on this ability check. The check's DC starts at 12, and is modified by the following:",
+                                "The {@b Advanced Planning} stage of an advanced firearm takes much longer than regular planning. Instead of taking a week, it takes a month to draft your plans. Additionally, the DC starts at 14 instead of 12. Otherwise, planning is as normal."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Advanced Prototyping",
+                            "entries": [
+                                "The {@b Advanced Prototyping} stage of an advanced firearm is more dangerous than the prototyping stage of a regular firearm. Instead of two weeks, it takes a month. If you misfire on the attack roll at the end of the month, you suffer the weapon's damage. Otherwise, prototyping is as normal."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Advanced Production",
+                            "entries": [
+                                "The {@b Advanced Production} stage of an advanced firearm involves an extreme amount of skill, even for something as rudimentary as assembly. This stage usually accounts for around half of the firearm's cost.",
+                                "You must spend two weeks, where at least two hours each day are spent focusing on constructing the firearm. At the end of the two weeks, roll a DC 14 Dexterity (Tinker's tools) check. On a failure, you spend an eighth of the firearm's total cost and must try again. Otherwise, you spend half of the firearm's total cost and finish producing it."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Advanced Repairs",
+                            "entries": [
+                                "If an advanced firearm misfires, and the weapon needs to be repaired due to breaking entirely, repairing it is a little more difficult than fixing a standard firearm.",
+                                "When repairing an advanced firearm, you need to either spend eight hours uninterrupted, or two hours each day over the course of a week. At the end of this period, roll an Intelligence (Tinker's tools) check, the DC is 8 + the weapon's misfire score. On a success, the weapon is repaired and you spend the quarter of it's total cost as normal. On a failure, the weapon is not repaired, but you do not spend gold."
+                            ]
+                        },
+                        {
+                            "type": "section",
+                            "name": "Crafting Advanced Bullets",
+                            "entries": [
+                                "During a long rest, you can make a Dexterity (Tinker's Tools) check. If the ammunition you are crafting costs more than 5 gold per batch, the DC is 15. Otherwise it is 10.",
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        {
+                                            "type": "entries",
+                                            "name": "Bleeder",
+                                            "entries": [
+                                                "A bleeder can be made for any firearm without the explosive property. It increases the weapon's lethal score by 1, and gets stuck into a creature it hits. At the start of each turn after being hit with a bleeder, the target must make a DC 10 Constitution saving throw or take an additional 1d4 necrotic damage. They can use their action to make a DC 10 Dexterity check. On a success, they take an additional 1d4 necrotic damage and pull the bullet out, ending the effect. They cost six times the standard cost of the ammunition to produce. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Bolas Bullets",
+                                            "entries": [
+                                                "Bolas bullets can be made for any firearm without the explosive property. On a hit, the target must succeed on a DC 12 Strength saving throw or be grappled and restrained. They can use an action to make this saving throw again to try and end this effect. They cost three times the standard cost of the ammunition to produce. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Explosive Bullet",
+                                            "entries": [
+                                                "Explosive bullets can be made for any firearm without the explosive property. It increases the weapon's Misfire score by 3, but adds the Explosive property, dealing 1d6 fire damage with it's explosion. They cost five times the standard cost of the ammunition to produce. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Piercing Bullet",
+                                            "entries": [
+                                                " A piercing bullet is designed to penetrate the thick, sturdy armor. If you hit a target wearing heavy armor, or with a natural armor of 16 or higher, you deal an additional die of damage. You can only make this ammunition for firearms that do piercing damage. They cost four times the standard cost of the ammunition to produce. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Poison Dart Bullet",
+                                            "entries": [
+                                                "A poison dart is a kind of special ammunition that can hold a single dose of poison inside of it. On a hit, it deals damage as normal and then applies the effects of the poison. It takes an action to apply a dose of poison to a single poison dart bullet. It costs twice the standard cost of the ammunition to produce. "
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Grenades",
+                    "page": 4,
+                    "entries": [
+                        {
+                            "type": "table",
+                            "caption": "Available Grenades",
+                            "colLabels": [
+                                "Name",
+                                "Cost",
+                                "Damage",
+                                "Weight",
+                                "Range",
+                                "Radius",
+                                "Properties"
+                            ],
+                            "rows": [
+                                [
+                                    "Grenade",
+                                    "150gp",
+                                    "3d6 fire (Dex)",
+                                    "1 lb",
+                                    "60 ft",
+                                    "5 ft",
+                                    "-"
+                                ],
+                                [
+                                    "Smoke Bomb",
+                                    "100gp",
+                                    "-",
+                                    "1 lb",
+                                    "60 ft",
+                                    "10 ft",
+                                    "Smoke"
+                                ],
+                                [
+                                    "Flashbang",
+                                    "250gp",
+                                    "2d6 thunder (Con)",
+                                    "1 lb",
+                                    "60 ft",
+                                    "10 ft",
+                                    "Flash, Bang"
+                                ],
+                                [
+                                    "Frag Grenade",
+                                    "200gp",
+                                    "4d6 piercing (Dex)",
+                                    "1 lb",
+                                    "60 ft",
+                                    "5 ft",
+                                    "-"
+                                ],
+                                [
+                                    "Tangler",
+                                    "150gp",
+                                    "1d6 acid (Dex)",
+                                    "1 lb",
+                                    "60 ft",
+                                    "5 ft",
+                                    "Sticking"
+                                ],
+                                [
+                                    "Impact Grenade",
+                                    "250gp",
+                                    "3d6 fire (Dex)",
+                                    "1 lb",
+                                    "30 ft",
+                                    "5 ft",
+                                    "Impact"
+                                ],
+                                [
+                                    "Scatterbang",
+                                    "250gp",
+                                    "2d6 piercing (Dex)",
+                                    "1 lb",
+                                    "30 ft",
+                                    "5 ft",
+                                    "Impact, Bang"
+                                ]
+                            ]
+                        },
+                        "Before the advent of firearms, and even military application of the substance, gunpowder was used primarily in large scale explosives. Those with proficiency in tinker's tools are able to create grenades.",
+                        "All grenades have a range they can be thrown, an amount of damage they do or an effect they cause, a saving throw against their effects (listed with damage) and a radius around them in which these effects take place. These effects are listed below, followed by a chart of known grenades.",
+                        "As an action, a character can throw a grenade to a point within it's range. Any creatures within it's radius must succeed on a saving throw, defined in the damage column, or take the listed damage. They take half as much damage on a success.",
+                        "{@b As an action, a character can throw a grenade to a point within it's range. Any creatures within it's radius must succeed on a saving throw, defined in the damage column, or take the listed damage. They take half as much damage on a success.}",
+                        {
+                            "type": "entries",
+                            "name": "Grenade Properties",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        {
+                                            "type": "entries",
+                                            "name": "Smoke",
+                                            "entries": [
+                                                "At the start of the first turn after this grenade detonates, it emits a cloud of smoke that creates a heavily obscured area in a radius that is equal to double the grenade's radius score. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Flash",
+                                            "entries": [
+                                                "All creatures within the radius of the grenade's effect must make a Constitution saving throw or be blinded until the end of their next turn. If the grenade has both this property and the 'Bang' property, the creature makes a single save against both effects. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Bang",
+                                            "entries": [
+                                                "All creatures within the radius of the grenade's effect must make a Constitution saving throw or be deafened until the end of their next turn. If the grenade has both this property and the 'Flash' property, the creature makes a single save against both effects. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Sticking",
+                                            "entries": [
+                                                "All creatures within the radius of the grenade's effect must make a Strength saving throw or be restrained. They can repeat the saving throw at the end of each of their turns to break free. "
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Impact",
+                                            "entries": [
+                                                "Instead of targeting a location within range, you choose a creature within range and make an improvised weapon attack against that creature, using your Strength or Dexterity (your choice). On a hit, they take the damage of your grenade, and must make saving throws against the effects of any properties it has. Any creatures within the grenade's radius must make the saving throw as normal. Grenades with this property cannot have a radius of more than 5 feet."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "",
+                                            "entries": [
+                                                "On a failed save against this grenade's damage, the target is also ignited. At the start of their turns until this effect ends, they take 1d4 fire damage. As an action on their turn, they can make a Dexterity check against the Grenade's DC, putting out the flames on a success."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Crafting Grenades",
+                            "entries": [
+                                "During a long rest, if you spend your two hours of light activity crafting, you can create a grenade. This process consumes an amount of material equal to half of the cost of the grenade"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Grenade Launcher",
+                            "entries": [
+                                "A grenade launcher is a specialised weapon that can be made by a gunslinger, designed to propel grenades further away.",
                                 {
                                     "type": "table",
                                     "colLabels": [
-                                        "Firearm Feature",
-                                        "DC Mod."
+                                        "Name",
+                                        "Cost",
+                                        "Weight",
+                                        "Range",
+                                        "Weapon Properties"
                                     ],
                                     "rows": [
                                         [
-                                            "If the weapon has more than one damage die.",
-                                            "+2"
-                                        ],
-                                        [
-                                            "If the weapon has a misfire score above 1.",
-                                            "-1"
-                                        ],
-                                        [
-                                            "If the weapon has any other properties besides misfire, reload and lethal.",
-                                            "+1 per property"
-                                        ],
-                                        [
-                                            "If the weapon is one handed.",
-                                            "+1"
-                                        ],
-                                        [
-                                            "If the weapon has a reload score above 1.",
-                                            "+2"
-                                        ],
-                                        [
-                                            "If the weapon does an alternative damage type to piercing.",
-                                            "+2"
-                                        ],
-                                        [
-                                            "If the weapon is one-handed and has a range above (60/240).",
-                                            "+1"
-                                        ],
-                                        [
-                                            "If the weapon is two-handed and has a range above (120/480)",
-                                            "+1"
+                                            "Grenade Launcher",
+                                            "200gp",
+                                            "1 lb",
+                                            "120 ft",
+                                            "Two-handed, misfire 1, special"
                                         ]
                                     ]
                                 },
-                                "If you fail, you spend an eighth of your firearm's total cost, and must try again. Otherwise, you spend a quarter of your firearm's total on the draft."
+                                {
+                                    "type": "entries",
+                                    "name": "Special Property",
+                                    "entries": [
+                                        "As an action with a grenade launcher, a character can propel a grenade up to 120 feet away. Roll 1d20, if the result is the weapon's misfire score then the grenade explodes in the barrel and you must suffer the effects. The grenade launcher also misfires. Otherwise, the grenade functions as though it had been thrown."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crafting the Grenade Launcher",
+                                    "entries": [
+                                        "If you have not made one before, you must craft it like any other firearm. The DC for the planning stage is 15, and you simply roll 1d20 for the attack roll in the prototyping stage."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Artillery",
+                    "page": 5,
+                    "entries": [
+                        "Siege Weapons are fearsome creations, capable of tearing down castle walls and defending great fortresses from the military might of their enemies, but chief among the siege weapons of the world in it's ability do damage the common man is the {@i cannon}. ",
+                        "Powered by gunpowder and smoke, the explosive power backing each 30 pound ball can shatter through some walls like a war pick through a chink in someone's armor. ",
+                        "From the cannon, with the advent or more technically advanced munitions, came the birth of an advanced class of weapons known as {@i artillery}, large-scale firearms beyond the power and range of an ordinary handheld weapon. ",
+                        "To create {@i artillery} you need an amount of munitions components equal to the gold worth listed under cost. Creating an artillery weapon is functionally the same as creating an advanced firearm, except it takes twice as long produce. The draft DC is listed alongside the cost, and the time it takes to prime and set up for use. ",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Name",
+                                "Cost",
+                                "Ammo",
+                                "Weight",
+                                "Craft DC",
+                                "Setup"
+                            ],
+                            "rows": [
+                                [
+                                    "Bombardment Mortar",
+                                    "950gp",
+                                    "1 (20g)",
+                                    "400 lb",
+                                    "DC 17",
+                                    "10 minutes"
+                                ],
+                                [
+                                    "Organ Gun",
+                                    "700gp",
+                                    "10 (10g)",
+                                    "350 lb",
+                                    "DC 15",
+                                    "1 minute"
+                                ],
+                                [
+                                    "Pucklebuster",
+                                    "500gp",
+                                    "10 (10g)",
+                                    "200 lb",
+                                    "DC 17",
+                                    "1 minute"
+                                ]
                             ]
                         },
                         {
-                            "type": "section",
-                            "name": "Prototyping",
+                            "type": "entries",
+                            "name": "Organ Gun",
                             "entries": [
-                                "The {@b Prototyping} stage of firearm crafting involves more hands on work, involving assembling a temporary model of the firearm and testing it before making refinements before production. This stage usually accounts for around a quarter of the firearm's cost.",
-                                "You must spend two weeks, where at least two hours each day are spent focusing on the task of prototyping the firearm. At the end of the two weeks, make an attack roll and a damage roll with the firearm, ignoring the lethal property. If you misfire, or roll a 1 on any of the damage die, you must spend an eighth of the firearm's total cost repairing and adjusting the prototype to try again.",
-                                "If you spend twice as long to prototype, you make the prototyping attack roll with advantage.",
-                                "Alternatively, you can spend four times as long prototyping to also gain a reroll of the first 1 rolled on a damage die during this process, keeping the new roll.",
-                                "If you succeed, you spend a quarter of the firearm's total cost and can move onto the production step."
-                            ]
-                        },
-                        {
-                            "type": "section",
-                            "name": "Planning",
-                            "entries": [
-                                "The {@b Production} stage of firearm crafting is much less mentally involved, though it still takes finesse and skill that only a Gunsmith possess. This stage usually accounts for around half of the firearm's cost.",
-                                "You must spend a week, where at least two hours each day are spent focusing on the task of constructing the firearm. Constructing a firearm costs half of the firearm's total cost."
-                            ]
-                        },
-                        {
-                            "type": "section",
-                            "name": "Crafting Bullets",
-                            "entries": [
-                                "During a long rest, you can make a Dexterity (Tinker's Tools) check. If the ammunition you are crafting costs more than 5 gold per batch, the DC is 15. Otherwise it is 10.",
-                                "If you stay up for twice as long during your long rest, making a Constitution saving throw to avoid exhaustion as normal, you make this ability check with advantage.",
-                                "On a success, you craft one batch of ammunition provided you have materials equal to half of the ammunition's cost."
+                                "Also known as a rabauld, the organ gun consists of several arquebuses, a more primitive firearm similar to a musket, lined up alongside eachother on a wheel-bound post.",
+                                object
                             ]
                         }
                     ]

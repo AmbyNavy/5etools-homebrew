@@ -7,7 +7,7 @@
                 "!*/index.json",
                 "!*/.vscode/settings.json"
             ],
-            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema_fast/homebrew.json"
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json"
         }
     ],
     "cSpell.words": [
@@ -29,6 +29,7 @@
         "Genaho",
         "Hodaton",
         "Insatiables",
+        "Jadeor",
         "Jimani",
         "jumpin",
         "Kosurai",
@@ -62,6 +63,7 @@
         "spellcasting",
         "Spellsinger",
         "Splodesmiths",
+        "Steelpush",
         "Stormbinder",
         "Thinahi",
         "Tiliel",
@@ -69,6 +71,7 @@
         "Vecna",
         "warhammer",
         "Waveseeker",
+        "WOIS",
         "Zide"
     ]
 }

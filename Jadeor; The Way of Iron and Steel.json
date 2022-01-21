@@ -37,8 +37,11 @@
 			"additionalSpells": [
 				{
 					"known": {
-						"3":[
-							"mage hand|phb#c"
+						"3": [
+							"mage hand#c"
+						],
+						"11": [
+							"telekinesis"
 						]
 					}
 				}
@@ -70,20 +73,24 @@
 			"subclassSource": "MagnetMonk",
 			"level": 3,
 			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
 			"entries": [
 				"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": ""
+					"subclassFeature": "Steel Jump|Monk||Magnet Monk|MagnetMonk|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": ""
-				}a
+					"subclassFeature": "Steel Strike|Monk||Magnet Monk|MagnetMonk|3"
+				}
 			]
 		},
 		{
-			"name": "Steelpush",
+			"name": "Steel Jump",
 			"source": "MagnetMonk",
 			"className": "Monk",
 			"classSource": "PHB",
@@ -91,13 +98,17 @@
 			"subclassShortName": "Magnet Monk",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
-			"header": 2,
+			"header": 3,
+			"consumes": {
+				"name": "Ki"
+				"amount": 1
+			},
 			"entries": [
-				""
+				"If the object is on the ground directly below you, you may use it to push up into the air as an action. You can levitate up to 30 feet in the air. You can remain hovering as a bonus action on each of your subsequent turns and choose to levitate up or down up to a maximum of 30 feet as part of this bonus action. If the object is moved, you fall back down to the ground. You can also use this action to increase your jump distance by 15 feet by running over the object as you jump. You may do this as a bonus action by spending 1 ki point."
 			]
 		},
 		{
-			"name": "Steelpush",
+			"name": "Steel Strike",
 			"source": "MagnetMonk",
 			"className": "Monk",
 			"classSource": "PHB",
@@ -105,9 +116,9 @@
 			"subclassShortName": "Magnet Monk",
 			"subclassSource": "MagnetMonk",
 			"level": 3,
-			"header": 2,
+			"header": 4,
 			"entries": [
-				""
+				"If you are holding the metal object and it weighs 5 ounces or less, you may fire it as a projectile. The object counts as a ranged monk weapon that you are proficient with and a range of 45/60 feet, it deals piercing damage equal to your monk die and you use your Dexterity modifier for attack and damage rolls with it. Whenever you would make an unarmed strike during your turn, you may make a steel strike instead (including with Flurry of Blows)."
 			]
 		},
 		{
@@ -120,8 +131,56 @@
 			"subclassSource": "MagnetMonk",
 			"level": 6,
 			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
 			"entries": [
-				""
+				"If it weighs more than 1,5 times your weight, you are pulled up to 30 feet towards it. If it weighs less than half your weight, it is pulled up to 30 feet towards you. If its weight is similar to your own, you are both pulled up to 15 feet towards each other. You may use this to lift yourself into the air if the object is higher than you. You may do this as a bonus action by spending 1 ki point.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disarming Pull|Monk||Magnet Monk|MagnetMonk|6"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Returning Strike|Monk||Magnet Monk|MagnetMonk|6"
+				}
+			]
+		},
+		{
+			"name": "Disarming Pull",
+			"source": "MagnetMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Magnet Monk",
+			"subclassSource": "MagnetMonk",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"As an action, you can use this ability to try and disarm a foe. If a creature you can see within 45 feet of you is holding a metallic object that weighs less than half your weight, you may attempt to disarm them. The creature makes a Strength (athletics) check against your Ki save DC, if they fail they lose their grip on their weapon and you may pull it up to 45 feet towards you, and catch it if you have a free hand. You may do this as a bonus action by spending 2 ki points."
+			]
+		},
+		{
+			"name": "Returning Strike",
+			"source": "MagnetMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Magnet Monk",
+			"subclassSource": "MagnetMonk",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
+			"entries": [
+				"Whenever you use your Steel Strike feature to attack, you may spend 1 ki point to return the object you fired to your hand (no action required). If the attack hit, the creature takes additional damage equal to two times your monk die. You may not use this feature more than once each turn."
 			]
 		},
 		{
@@ -134,8 +193,12 @@
 			"subclassSource": "MagnetMonk",
 			"level": 11,
 			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
 			"entries": [
-				""
+				"At 11th level, your magnetic abilities are truly formidable. As an action you may cast the telekinesis spell without using a spell slot or material components, but may only use it to lift metallic objects or creatures wearing or containing metal when you do so. When you cast this spell this way, you do not need to concentrate on it. Once you have done this, you may not use this feature again until you've finished a long rest unless you spend 2 ki points to do so."
 			]
 		},
 		{
@@ -149,7 +212,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				""
+				"At 17th level, you can return all your projectiles to you. You are no longer restricted to using your returning strike once each turn. Additionally, the first time you would use this feature during your turn, you may do so without spending any ki points."
 			]
 		}
 	]

@@ -60,7 +60,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"At 3rd level, your magnetic abilities let you lift and move metallic objects. You know the {@spell mage hand#c} cantrip, the mage hand is invisible and you can only use it to lift metal objects or objects with metal in them."
+				"At 3rd level, your magnetic abilities let you lift and move metallic objects. You know the {@spell mage hand} cantrip, the mage hand is invisible and you can only use it to lift metal objects or objects with metal in them."
 			]
 		},
 		{
@@ -78,7 +78,8 @@
 				"amount": 1
 			},
 			"entries": [
-				"",
+				"Also at 3rd level, you unlock magnetic abilities. As an action you may choose a metallic object within 10 feet of you that you can see and isn't being worn or carried by another creature, and push on it telekinetically. If the object weighs more than 1,5 times your weight, you are pushed up to 30 feet away from it. If it weighs less than half your weight it is pushed up to 30 feet away from you. If its weight is similar to your own, you are both pushed up to 15 feet from each other. You may do this as a bonus action by spending 1 ki point.",
+				"Furthermore, using this same ability, you can do the following:",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Steel Jump|Monk||Magnet Monk|MagnetMonk|3"
@@ -136,7 +137,9 @@
 				"amount": 1
 			},
 			"entries": [
+				"Starting at 6th level, you can use your magnetic abilities to pull things towards you. As an action, you may choose a metallic object within 30 feet of you that you can see and isn't being worn by a creature, and pull it towards you telekinetically.",
 				"If it weighs more than 1,5 times your weight, you are pulled up to 30 feet towards it. If it weighs less than half your weight, it is pulled up to 30 feet towards you. If its weight is similar to your own, you are both pulled up to 15 feet towards each other. You may use this to lift yourself into the air if the object is higher than you. You may do this as a bonus action by spending 1 ki point.",
+				"Furthermore, using this ability you can do the following:",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Disarming Pull|Monk||Magnet Monk|MagnetMonk|6"

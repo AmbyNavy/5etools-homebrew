@@ -60,7 +60,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"At 3rd level, your magnetic abilities let you lift and move metallic objects. You know the Mage Hand cantrip, the mage hand is invisible and you can only use it to lift metal objects or objects with metal in them.",
+				"At 3rd level, your magnetic abilities let you lift and move metallic objects. You know the {@spell mage hand#c} cantrip, the mage hand is invisible and you can only use it to lift metal objects or objects with metal in them."
 			]
 		},
 		{
@@ -100,7 +100,7 @@
 			"level": 3,
 			"header": 3,
 			"consumes": {
-				"name": "Ki"
+				"name": "Ki",
 				"amount": 1
 			},
 			"entries": [
@@ -198,7 +198,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"At 11th level, your magnetic abilities are truly formidable. As an action you may cast the telekinesis spell without using a spell slot or material components, but may only use it to lift metallic objects or creatures wearing or containing metal when you do so. When you cast this spell this way, you do not need to concentrate on it. Once you have done this, you may not use this feature again until you've finished a long rest unless you spend 2 ki points to do so."
+				"At 11th level, your magnetic abilities are truly formidable. As an action you may cast the {@spell telekinesis} spell without using a spell slot or material components, but may only use it to lift metallic objects or creatures wearing or containing metal when you do so. When you cast this spell this way, you do not need to concentrate on it. Once you have done this, you may not use this feature again until you've finished a long rest unless you spend 2 ki points to do so."
 			]
 		},
 		{

@@ -7,7 +7,7 @@
                 "!*/index.json",
                 "!*/.vscode/settings.json"
             ],
-            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json"
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema_fast/homebrew.json"
         }
     ],
     "cSpell.words": [
